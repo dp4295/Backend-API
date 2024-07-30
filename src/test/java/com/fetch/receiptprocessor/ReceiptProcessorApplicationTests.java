@@ -1,2 +1,4 @@
-package com.fetch.receiptprocessor;public class ReceiptProcessorApplicationTests {
+package com.fetch.receiptprocessor;
+
+public class ReceiptProcessorApplicationTests {
 }

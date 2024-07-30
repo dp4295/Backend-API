@@ -1,0 +1,36 @@
+# Maven build output
+target/
+
+# IDE and build system files
+.idea/
+*.iml
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA project files
+*.iws
+*.ipr
+*.iml
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Java class files
+*.class
+
+# Coverage reports
+*.exec
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# Maven Wrapper
+.mvn/wrapper/

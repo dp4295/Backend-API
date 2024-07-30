@@ -1,2 +1,4 @@
-package com.fetch.receiptprocessor.service;public class ReceiptServiceTest {
+package com.fetch.receiptprocessor.service;
+
+public class ReceiptServiceTest {
 }
