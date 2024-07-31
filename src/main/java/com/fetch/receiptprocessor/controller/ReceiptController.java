@@ -21,15 +21,6 @@ public class ReceiptController {
         this.receiptPointService = receiptPointService;
     }
 
-//    @PostMapping("/process")
-//    public ResponseEntity<?> processReceipt(@Valid @RequestBody Receipt receipt) {
-//        try {
-//            String receiptId = receiptPointService.processReceipt(receipt);
-//            return ResponseEntity.ok().body(new ReceiptResponse(receiptId));
-//        } catch (IllegalArgumentException e) {
-//            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("The receipt is invalid");
-//        }
-//    }
     @PostMapping("/process")
     public ResponseEntity<?> processReceipt(@Valid @RequestBody Receipt receipt) {
         String receiptId = receiptPointService.processReceipt(receipt);
