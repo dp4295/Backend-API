@@ -6,6 +6,9 @@
 ## Clone the repo to local
 ``git clone https://github.com/dp4295/Backend-API.git``
 
+## Navigate to Backend-API folder
+``cd Backend-API``
+
 ## Build the package 
 ``mvn clean package``
 
