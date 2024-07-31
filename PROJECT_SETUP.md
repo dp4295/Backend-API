@@ -1,3 +1,0 @@
-# Receipt Processing project 
-
-
