@@ -1,13 +1,15 @@
 package com.fetch.receiptprocessor.service;
 
-import com.fetch.receiptprocessor.model.Receipt;
 import com.fetch.receiptprocessor.model.Item;
+import com.fetch.receiptprocessor.model.Receipt;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalTime;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+@Service
 public class ReceiptPointServiceImpl implements ReceiptPointService {
 
     private final Map<String, Receipt> receiptStore = new HashMap<>();
